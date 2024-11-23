@@ -1,0 +1,31 @@
+{
+  "id": "dual-mix",
+  "title": "Dual Mix",
+  "description": "Enable GMs to perform smooth crossfades between two audio tracks playing concurrently",
+  "authors": [
+    {
+      "name": "SuperSparky"
+    }
+  ],
+  "version": "1.0.0",
+  "url": "https://github.com/epitts1013/dual-mix",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": [
+    "scripts/dual-mix.js"
+  ],
+  "styles": [
+    "styles/dual-mix.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
