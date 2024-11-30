@@ -1,0 +1,20 @@
+{
+  "DUAL-MIX": {
+    "sound-controls": {
+      "tooltips": {
+        "add-track": "Add to Mixer",
+        "remove-track": "Remove from Mixer",
+        "fade-in": "Fade track in"
+      }
+    },
+    "warnings": {
+      "mixer-playing": "Cannot add or remove sounds while Mixer is playing"
+    },
+    "settings": {
+      "developer-logging": {
+        "name": "Enable Developer Logging",
+        "hint": "Enable debug logs for Dual-Mix in the browser developer console"
+      }
+    }
+  }
+}

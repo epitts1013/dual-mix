@@ -15,7 +15,7 @@
     "minimum": "12",
     "verified": "12"
   },
-  "esmodules": [
+  "esmodules": [   
     "scripts/dual-mix.js"
   ],
   "styles": [

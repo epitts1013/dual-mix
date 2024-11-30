@@ -1,0 +1,24 @@
+<div id="dual-mix-mixer" class="global-control flexrow">
+  <header class="playlist-header flexrow">
+    <h4>Mixer</h4>
+  </header>
+  <ol class="playlist-sounds">
+    {{#each soundsInMixer}}
+      <li class="sound flexrow" data-playlist-id="{{this.parent.id}}" data-sound-id="{{this.id}}">
+        <h4 class="sound-name" draggable="true">{{this.name}}</h4>
+        <div class="sound-controls flexrow">
+          <a 
+            class="sound-control fa-regular fa-sliders-up"
+            data-action="mixer-fade-in"
+            data-tooltip="DUAL-MIX.sound-controls.tooltips.fade-in"
+          ></a>
+          <a 
+            class="sound-control fa-solid fa-circle-xmark"
+            data-action="mixer-remove"
+            data-tooltip="DUAL-MIX.sound-controls.tooltips.remove-track"
+          ></a>
+        </div>
+      </li>
+    {{/each}}
+  </ol>
+</div>
