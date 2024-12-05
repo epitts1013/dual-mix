@@ -7,8 +7,13 @@
         "fade-in": "Fade track in"
       }
     },
-    "warnings": {
-      "mixer-playing": "Cannot add or remove sounds while Mixer is playing"
+    "notifications": {
+      "info": {
+        "resyncing-audio": "New player connected, re-synchronizing audio for all players"
+      },
+      "warnings": {
+        "sound-controls-disabled": "Sound specific playback controls are disabled for tracks in Mixer. Please use Mixer playback controls or remove from Mixer."
+      }
     },
     "settings": {
       "developer-logging": {
